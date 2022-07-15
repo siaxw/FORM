@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Quicksand", sans-serif;
+}
+
+:root {
+	--royal-blue: #41b9e0;
+	--white: #ffffff;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	font-size: 16px;
+	background: linear-gradient(
+			to right,
+			rgba(65, 105, 225, 0.6),
+			rgba(65, 105, 225, 0.7)
+		),
+		url(https://27mi124bz6zg1hqy6n192jkb-wpengine.netdna-ssl.com/wp-content/uploads/2020/09/Sept-9-Benefits-of-Group-Work_web.jpg)
+			no-repeat;
+}
+
+h1,
+p {
+	text-align: center;
+	padding: 5px;
+}
+
+p {
+	font-weight: 600;
+}
+
+form {
+	width: 100%;
+	height: 100vh;
+	padding: 0 50px 0 50px;
+	background-color: rgba(65, 105, 225, 0.7);
+	text-align: center;
+}
+
+.namelabel,
+.emaillabel {
+	display: inline-flex;
+	width: 45%;
+	justify-content: space-around;
+	margin: 10px auto;
+}
+
+.numberlabel {
+	display: inline-flex;
+	margin: 10px 0 10px 0;
+	width: 100%;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.number {
+	width: 50%;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: white;
+}
+
+.dropdown {
+	font-size: 24px;
+	display: inline-flex;
+	align-items: center;
+	margin: 10px;
+}
+
+.dropdown select {
+	margin: 10px;
+	width: 50%;
+}
+
+.recommend {
+	width: 100vh;
+}
